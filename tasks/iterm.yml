@@ -1,0 +1,5 @@
+---
+- name: Ensure custom Terminal profile is added.
+  copy:
+    src: files/iterm/Profiles.json
+    dest: ~/Library/Application Support/iTerm2/DynamicProfiles
